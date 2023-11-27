@@ -16,7 +16,7 @@ ImageProcessor imageResizingProcessor = new ImageProcessor(resizingStrategy);
 ImageProcessor imageFilterProcessor = new ImageProcessor(filterStrategy);
 
 /*
- * Сама фишка в том, что по желанию можем 
+ * Сама фишка в том, что по желанию можем использовать определенную стратегию обработки изображения :)
  */
 imageCompressingProcessor.ProcessImage(pathImage);
 
